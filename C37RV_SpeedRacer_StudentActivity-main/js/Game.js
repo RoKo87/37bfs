@@ -44,6 +44,7 @@ class Game {
     Player.getPlayersInfo()
     if (allPlayers !== undefined ) {
       image(track, 0, -height*5, width, 6*height)
+      drawSprites();
 
     }
   }
